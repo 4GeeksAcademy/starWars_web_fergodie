@@ -14,7 +14,7 @@ export const Demo = () => {
 			<h1 className="text-danger m-5"><strong>Characters</strong></h1>
 
 			<div className="m-5">
-				<div id="carouselExampleControls" className="carousel slide bg-light" data-bs-ride="carousel">
+				<div id="carouselExampleControls" className="carousel carousel-dark slide bg-light" data-bs-ride="carousel">
 					<div className="carousel-inner">
 						<div className="carousel-item active">
 							<div className="card-wrapper d-flex">

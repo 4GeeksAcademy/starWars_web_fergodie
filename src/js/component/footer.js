@@ -11,7 +11,7 @@ export const Footer = () => (
 				</div>
 				<div className="col-md-6">
 					<div className="d-flex justify-content-center">
-						<a href="#" className="btn btn-link text-white">
+						<a href="#" className="btn btn-link text-white"> 
 							Botón 1
 						</a>
 						<a href="#" className="btn btn-link text-white">

@@ -14,10 +14,10 @@ export const CardDetails = () => {
 			<div className="container mt-5">
 				<div className="row">
 					<div className="col-md-6">
-						<img className="img-fluid max-width: 100%" src="https://picsum.photos/500/300" alt="Descripción de la imagen" />
+						<img className="img-fluid max-width: 100%" src="https://picsum.photos/500/300" alt="" />
 						<div className="mt-3">
 							<h1>Nombre apellido</h1>
-							<p>Un se;or elegante, con capa negra que come todo lo que encuentra, siempre deja caca suelta</p>
+							<p>Un señor elegante, con capa negra que come todo lo que encuentra, siempre deja caca suelta</p>
 						</div>
 					</div>
 					<div className="col-md-6">

@@ -13,9 +13,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 			loadSomeData: () => {
 				
-					fetch("https://www.swapi.tech/api/planets/")
-					.then()
-					.then(data => setStore({ "foo": data.bar }))
+					
 				
 			},
 			changeColor: (index, color) => {
@@ -33,15 +31,41 @@ const getState = ({ getStore, getActions, setStore }) => {
 				setStore({ demo: demo });
 			},
 
-			loadCharacters: () => {},
-			loadPlanets: () => {},
-			loadVehicles: () => {},
+			loadCharacters: () => {
+				fetch("https://www.swapi.tech/api/people/")
+					.then(response => response.json() )
+					.then(data => {
+						console.log(data.results)
+						setStore({ "characters": data.results })
+					})
+			},
+
+			loadPlanets: () => {
+				fetch("https://www.swapi.tech/api/planets/")
+					.then(response => response.json() )
+					.then(data => {
+						console.log(data.results)
+						setStore({ "planets": data.results })
+					})
+			},
+
+			loadVehicles: () => {
+				fetch("https://www.swapi.tech/api/vehicles/")
+				.then(response => response.json() )
+				.then(data => {
+					console.log(data.results)
+					setStore({"vehicles": data.results })
+				})
+
+			},
 
 			addFavorites: () => {},
 			deleteFavorites: () => {},
 
 			openSinglePerson: () => {},
-			openSinglePlanet: () => {},
+			openSinglePlanet: () => {
+				//fetch(/id   //aca esta barra id)
+			},
 			openSingleVehicle: () => {},
 
 

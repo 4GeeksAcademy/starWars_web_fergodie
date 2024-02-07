@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CardPlanet } from "./cardPlanet";
 
 export const Carousel = () => {
 	return (
@@ -12,7 +13,8 @@ export const Carousel = () => {
 				<div id="carouselExampleControls" className="carousel carousel-dark slide bg-light" data-bs-ride="carousel">
 					<div className="carousel-inner">
 						<div className="carousel-item active">
-
+							
+							
 
 						</div>
 					</div>

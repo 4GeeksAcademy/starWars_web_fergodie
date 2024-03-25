@@ -64,7 +64,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 			openSinglePerson: () => {},
 			openSinglePlanet: () => {
-				//fetch(/id   //aca esta barra id)
+				//fetch(/id   //aca esta barra id hola)
 			},
 			openSingleVehicle: () => {},
 
